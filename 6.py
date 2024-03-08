@@ -1,0 +1,1 @@
+print((100*101//2)**2 - sum(i*i for i in range(1,100)))
