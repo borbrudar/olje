@@ -1,7 +1,5 @@
 def isPan(n):
     if len(n) != 9: return False 
-    if n == "935218704":
-        b =0
     st = set()
     for i in n:
         if i in st: return False 
